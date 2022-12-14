@@ -1,0 +1,468 @@
+*{
+    box-sizing: border-box;
+}
+
+:root {
+  --shadow-color: #FF9E9E;
+  --shadow-color-light: white;
+}
+
+
+body{
+  font-family: "Archivo", sans-serif;
+  background-color: #02111B;
+  height: 1000px;
+}
+
+img{
+    width: 100%
+}
+
+
+.logo-1 {
+  color: white;
+  animation: neon 3s infinite;
+  margin-left: 20px;
+  font-size: 35px;
+
+  font-family: "Archivo Black", "Archivo", sans-serif;
+  font-weight: normal;
+  height: auto;
+  display:inline;
+
+}
+
+
+@keyframes neon {
+  0% {
+    text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+    0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+    0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+  }
+  50% {
+    text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+    0 0 5px var(--shadow-color-light), 0 0 15px var(--shadow-color-light), 0 0 25px var(--shadow-color-light),
+    0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 60px var(--shadow-color), 0 0 80px var(--shadow-color), 0 0 110px var(--shadow-color), 0 0 210px var(--shadow-color);
+  }
+  100% {
+    text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+    0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+    0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+  }
+}
+
+
+
+
+.navOption{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-left: 20px;
+    color: white;
+    font-family: "Archivo Black", "Archivo", sans-serif;
+    font-weight: normal;
+    height: auto;
+    display:inline;
+}
+
+.navOption:hover{
+    color: white;
+    animation: neon 3s infinite;
+}
+
+.signUpButton{
+  border-radius: 50% !important;
+}
+
+.theFuture{
+  font-family: "Archivo", sans-serif;
+    font-weight:400;
+    font-size: 50px;
+    color:white;
+}
+
+.subtext{
+    font-family: "Archivo", sans-serif;
+    margin-left: 10px;
+    font-size: 15px;
+    color:#f7f0f5
+}
+
+.infoInfo{
+  font-family: "Archivo", sans-serif;
+  color:#f7f0f5
+}
+
+.visualizer{
+  background-color: #02111B;
+  width: 100%
+}
+
+.sponsored{
+  text-transform: uppercase;
+  color:#677076;
+  font-size: 15px;
+  font-family: "Archivo", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+
+.contentHomePage{
+  
+  background-color: #f7f0f5;
+  width: 100% !important;
+
+}
+
+.custom-shape-divider-bottom-1670128449 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1670128449 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1670128449 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.spacer{
+  aspect-ratio: 1000/100;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.spacer-2{
+  aspect-ratio: 1000/50;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.spacer-3{
+  aspect-ratio: 1500/500;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.spacer-4{
+  aspect-ratio: 1500/400;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.spacer-5{
+  aspect-ratio: 1500/100;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.layer-9{
+  background-image: url('../img/layer-13.svg');
+}
+
+.layer-4{
+  background-image: url('../img/layer-7.svg');
+}
+.layer-3{
+  background-image: url('../img/layer-5.svg');
+}
+
+.layer-1{
+  background-image: url('../img/yaya.svg');
+}
+
+.layer-2{
+  background-image: url('../img/yaya2.svg');
+}
+
+.layer-8{
+  background-image: url('../img/layer-11.svg')
+}
+
+.sponsor-img{
+  width:150px;
+}
+
+.secondaryTitle{
+  color: #FFFFFF;
+}
+
+.neonSign{
+  color: white;
+  animation: neon 3s infinite;
+}
+
+.sponsor-img{
+  margin: auto !important;
+}
+
+.haveUEverHadA{
+  color: white;
+  animation: neon 3s infinite;
+}
+
+.homePageIcon{
+  color: #f7f0f5;
+  font-family: "Archivo", sans-serif;
+
+}
+
+.shadowBox{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.drnksclClassic{
+  font-family: "Archivo", sans-serif;
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 0.2rem;
+}
+
+.drnksclClassicDescription{
+  font-family: "Archivo", sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 12px;
+  color:#677076;
+}
+
+.footerBottom{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+
+.footerText{
+  font-size: 12px;
+}
+
+.signUpFormPage{
+  background-color: #f7f0f5;
+  background-image: url('../img/signupPage.png');
+  background-repeat: no-repeat;
+  background-position:left;
+  /* background-size: cover; */
+}
+
+.logInPage{
+  background-color: #02111B;
+  background-image: url('../img/monkeymoney.png');
+  background-repeat: no-repeat;
+  background-position:right;
+}
+
+.signupForm{
+  padding: 50px auto;
+  height: 100vh;
+  padding-top: 100px;
+  padding-left: 800px;
+}
+
+
+.loginForm{
+  padding: 50px auto;
+  height: 100vh;
+  padding-right:700px;
+  padding-top: 200px;
+  padding-left: 250px;
+}
+
+form{
+  padding: 20px 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: white;
+  border-radius: 2%;
+}
+
+.signUpBtn{
+  text-transform: uppercase;
+  border-radius: 10%;
+}
+
+.agreeToEmail{
+  font-family: "Archivo", sans-serif;
+  font-size: 14px;
+  color:#677076;
+}
+
+.createDrinkForm{
+  margin-top: 100px;
+
+}
+
+.addIngredientBtn:hover{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.createDrinkForm{
+	color:white;
+	background-color:#02111B;
+	margin: 50px 300px;
+	
+}
+
+.addDrinkLabel{
+	padding-top:2px !important;
+}
+
+.addADrinkRow{
+	background-color: #02111B;
+}
+
+.spacer-8{
+  aspect-ratio: 1500/750;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer-10{
+  background-image: url('../img/shawty.png')
+}
+
+.scldrnk{
+	background-color:#02111B;
+	color:white;
+	box-shadow:#BEBEBE 0px 48px 100px 0px;
+	border-radius: 10px;
+}
+
+.scldrnk:hover{
+	box-shadow:
+      0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075),
+      0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075),
+      0 16px 16px hsl(0deg 0% 0% / 0.075)
+    ;
+}
+
+.scldrnkBulletPoint{
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 0.1rem;
+}
+
+.fa-heart:hover{
+	color: white;
+    animation: neon 3s infinite;
+}
+
+.shiny{
+	color: white;
+    animation: neon 3s infinite;
+}
+
+.likeADrink{
+  margin: 20px 100px;
+  background-color: #f7f0f5;
+}
+
+.profilePage{
+  margin-top:50px;
+}
+
+.profilePicContainer{
+  padding:0;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-top: 100px;
+}
+.profilePic{
+  width: 150px;
+
+}
+.uploadPictureContainer{
+  padding:0;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.contentFormat{
+  color: white;
+  animation: neon 3s infinite;
+  text-transform: lowercase;
+  letter-spacing: 0.2rem
+}
+
+.yourDrinks{
+  margin-top: 175px;
+}
+
+
+.spacer-9{
+  aspect-ratio: 1500/700;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer-20{
+  background-image: url('../img/backdrop.jpeg');
+}
+
+.displayRecipes{
+	margin-left: 270px;
+}
+
+.glassIcon{
+	color: white;
+    animation: neon 3s infinite;
+}
+
+
+.DrnkPicContainer{
+  padding:0;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-top: 100px;
+}
+.drnksclDrnk{
+  width: 150px;
+}
+
+.uploadAnAvatar{
+	position: absolute;
+    z-index: 1000;
+    opacity: 0;
+    cursor: pointer;
+    right: 0;
+    top: 0;
+    height: 100%;
+    font-size: 24px;
+    width: 100%;
+}
+
+.userDrinksOnProfile:hover{
+	color: white;
+    animation: neon 3s infinite;
+}
