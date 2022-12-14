@@ -1,15 +1,15 @@
-#DRNKSCL 
+<h1>DRNKSCL</h1> 
 
 ---
 ---
 --- 
 
-##About The Project
+<h3>About The Project</h3>
 DRNKSCL is a social-platform that allows users to share <br>
 and exchange cocktail recipes.
 
 
-###Built With 
+<h4>Built With</h4>
 - Core Java
 - Spring Boot
 - HTML
@@ -33,10 +33,10 @@ and allowing users to 'follow' or 'befriend' each other.
 ---
 ---
 
-##Getting Started 
+<h3>Getting Started</h3>
 
 Since the DRNKSCL is not yet deployes, please proceed by downloading 
-[Spring Tools 4 for Eclipse (https://spring.io/tools)]<br>
+<a href = "https://spring.io/tools">Spring Tools 4 for Eclipse </a><br>
 Download project folder from github, and startup Sprint Suite. <br>
 In Spring Suite navbar, go to File -> Import. On the following prompt <br>
 window, under "Maven", select "Existing Maven Project". Then hit <br>
@@ -51,7 +51,7 @@ startup. To begin exploring the application, go to localhost:8080/ on a browse<b
 ---
 ---
 
-##Using DRNKSCL
+<h3>Using DRNKSCL</h3>
 
 Begin by signing up. Then, visit your profile page and begin sharing your <br>
 cocktail recipes! Visit the DRNK tab to see and explore other drinks from other <br> users. Have fun! 
