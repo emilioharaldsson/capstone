@@ -10,11 +10,11 @@ and exchange cocktail recipes.
 
 
 <h4>Built With</h4>
-- Core Java
-- Spring Boot
-- HTML
-- CSS/ Bootstrap
-- Javascript/ AJAX.
+- <h6>Core Java</h6><br>
+- <h6>Spring Boot</h6><br>
+- <h6>HTML</h6><br>
+- <h6>CSS/ Bootstrap</h6><br>
+- <h6>Javascript/ AJAX.</h6><br>
 
 
 The backend was built using Spring Boot due to its 
